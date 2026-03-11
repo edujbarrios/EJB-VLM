@@ -1,6 +1,6 @@
 """
 Configuration Loader for EJB VLM
-Author: Eduardo J. Barrios (@edujbarruos)
+Author: Eduardo J. Barrios (@edujbarrIos)
 """
 
 import yaml

@@ -2,7 +2,7 @@
 Quick Demo Script for EJB Vision-Language Model
 Downloads a sample image and generates descriptions
 
-Author: Eduardo J. Barrios (@edujbarruos)
+Author: Eduardo J. Barrios (@edujbarrIos)
 """
 
 import sys
@@ -20,7 +20,7 @@ def demo():
     print("\n" + "=" * 70)
     print("EJB-VLM - QUICK DEMO")
     print("Eduardo J. Barrios Vision-Language Model")
-    print("Author: Eduardo J. Barrios (@edujbarruos)")
+    print("Author: Eduardo J. Barrios (@edujbarrIos)")
     print("=" * 70)
     
     # Print device info

@@ -1,6 +1,6 @@
 """
 EJB-VLM (Eduardo J. Barrios Vision-Language Model)
-Author: Eduardo J. Barrios (@edujbarruos)
+Author: Eduardo J. Barrios (@edujbarrIos)
 """
 
 __version__ = "0.1.0"

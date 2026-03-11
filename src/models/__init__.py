@@ -1,6 +1,6 @@
 """
 Models for EJB VLM
-Author: Eduardo J. Barrios (@edujbarruos)
+Author: Eduardo J. Barrios (@edujbarrIos)
 """
 
 from .ejb_vlm_model import CLIPGPTDescriptor, AdvancedCLIPGPTDescriptor

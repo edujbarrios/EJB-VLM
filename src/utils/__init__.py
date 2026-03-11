@@ -1,6 +1,6 @@
 """
 Utilities for EJB VLM
-Author: Eduardo J. Barrios (@edujbarruos)
+Author: Eduardo J. Barrios (@edujbarrIos)
 """
 
 from .config_loader import load_config, get_config

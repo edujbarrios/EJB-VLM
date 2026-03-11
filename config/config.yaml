@@ -1,10 +1,10 @@
 # EJB Vision-Language Model Configuration
-# Author: Eduardo J. Barrios (@edujbarruos)
+# Author: Eduardo J. Barrios (@edujbarrIos)
 
 project:
   name: "EJB-VLM"
   author: "Eduardo J. Barrios"
-  github: "edujbarruos"
+  github: "edujbarrIos"
   version: "0.1.0"
   description: "Eduardo J. Barrios Vision-Language Model - Zero-Shot VLM using CLIP and GPT-2"
 

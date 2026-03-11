@@ -1,6 +1,6 @@
 """
 Image utility functions for EJB VLM
-Author: Eduardo J. Barrios (@edujbarruos)
+Author: Eduardo J. Barrios (@edujbarrIos)
 """
 
 import os

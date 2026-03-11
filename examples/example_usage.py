@@ -1,6 +1,6 @@
 """
 Example usage of the EJB Vision-Language Model
-Author: Eduardo J. Barrios (@edujbarruos)
+Author: Eduardo J. Barrios (@edujbarrIos)
 """
 
 import sys
@@ -227,7 +227,7 @@ def main():
     """Main function to run examples."""
     print("\n" + "=" * 60)
     print("EJB-VLM - Example Usage")
-    print("Author: Eduardo J. Barrios (@edujbarruos)")
+    print("Author: Eduardo J. Barrios (@edujbarrIos)")
     print("=" * 60)
     
     if len(sys.argv) > 1:

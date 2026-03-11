@@ -2,7 +2,7 @@
 CLIP-GPT2 Vision-Language Model (Parameterized)
 Combines CLIP for image encoding and GPT-2 for text generation.
 
-Author: Eduardo J. Barrios (@edujbarruos)
+Author: Eduardo J. Barrios (@edujbarrIos)
 """
 
 import torch
