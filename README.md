@@ -7,7 +7,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-A quick research project combining CLIP and pre-trained GPT-2 to generate image descriptions without training large models. Testing if a functional VLM can be implemented using only pre-trained components.
+A quick research project combining CLIP and pre-trained GPT-2 to generate image descriptions without training large models. It's a research project exploring whether meaningful VLMs can be built purely from existing components.
 
 **Author**: Eduardo J. Barrios ([@edujbarrIos](https://github.com/edujbarrIos))
 
