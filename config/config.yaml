@@ -2,11 +2,11 @@
 # Author: Eduardo J. Barrios (@edujbarruos)
 
 project:
-  name: "EJB-VLM"
+  name: "EJB-ClipVision"
   author: "Eduardo J. Barrios"
   github: "edujbarruos"
   version: "0.1.0"
-  description: "Vision-Language Model using CLIP and GPT-2"
+  description: "Zero-Shot Vision-Language Model using CLIP and GPT-2"
 
 # Model Configuration
 models:
