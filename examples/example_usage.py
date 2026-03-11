@@ -226,7 +226,7 @@ def interactive_mode():
 def main():
     """Main function to run examples."""
     print("\n" + "=" * 60)
-    print("EJB-ClipVision - Example Usage")
+    print("EJB-VLM - Example Usage")
     print("Author: Eduardo J. Barrios (@edujbarruos)")
     print("=" * 60)
     

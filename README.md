@@ -1,10 +1,10 @@
-# EJB-ClipVision
+# EJB-VLM
 
-**A Zero-Shot Vision-Language Model by Eduardo J. Barrios**
+**Eduardo J. Barrios Vision-Language Model**
 
 A quick research project combining CLIP and pre-trained GPT-2 to generate image descriptions without training large models. Testing if a functional VLM can be implemented using only pre-trained components.
 
-**Author**: Eduardo J. Barrios ([@edujbarruos](https://github.com/edujbarruos))
+**Author**: Eduardo J. Barrios ([@edujbarrIos](https://github.com/edujbarrIos))
 
 ## Overview
 
@@ -70,7 +70,7 @@ python examples/example_usage.py interactive
 ## Project Structure
 
 ```
-ejb-clipvision/
+ejb-vlm/
 ├── config/
 │   └── config.yaml          # Centralized configuration
 ├── src/
@@ -131,11 +131,10 @@ All parameters are centralized in `config/config.yaml`:
 
 Modify `config/config.yaml` to customize behavior without changing code.
 
-## Why "EJB-ClipVision"?
+## Why "EJB-VLM"?
 
 - **EJB**: Eduardo J. Barrios - emphasizing authorship
-- **Clip**: Using OpenAI's CLIP for vision understanding
-- **Vision**: Focus on computer vision and image understanding
+- **VLM**: Vision-Language Model - describes the core functionality
 
 This is a research project exploring whether functional VLMs can be built without training large models, using only pre-trained components and smart integration.
 

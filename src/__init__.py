@@ -1,5 +1,5 @@
 """
-EJB Vision-Language Model Package
+EJB-VLM (Eduardo J. Barrios Vision-Language Model)
 Author: Eduardo J. Barrios (@edujbarruos)
 """
 
