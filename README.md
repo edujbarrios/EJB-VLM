@@ -131,12 +131,6 @@ All parameters are centralized in `config/config.yaml`:
 
 Modify `config/config.yaml` to customize behavior without changing code.
 
-## Why "EJB-VLM"?
-
-- **EJB**: Eduardo J. Barrios - emphasizing authorship
-- **VLM**: Vision-Language Model - describes the core functionality
-
-This is a research project exploring whether functional VLMs can be built without training large models, using only pre-trained components and smart integration.
 
 ---
 
