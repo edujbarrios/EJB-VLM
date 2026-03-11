@@ -9,7 +9,7 @@ import sys
 import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
-from src.models.ejb_vlm_model import CLIPGPTDescriptor, AdvancedCLIPGPTDescriptor
+from src.models.ejb_vlm_model import EJBVLMDescriptor, AdvancedEJBVLMDescriptor
 from src.utils.device_utils import print_device_info
 from src.utils.image_utils import download_sample_image
 from src.utils.config_loader import get_config
@@ -58,7 +58,7 @@ def demo():
     print("-" * 70)
     
     # Initialize advanced model
-    model = AdvancedCLIPGPTDescriptor()
+    model = AdvancedEJBVLMDescriptor()
     
     print("\n" + "-" * 70)
     print("ANALYZING IMAGE...")

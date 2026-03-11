@@ -5,7 +5,7 @@ project:
   name: "EJB-VLM"
   author: "Eduardo J. Barrios"
   github: "edujbarrIos"
-  version: "0.1.0"
+  version: "1.0.0"
   description: "Eduardo J. Barrios Vision-Language Model - Zero-Shot VLM using CLIP and GPT-2"
 
 # Model Configuration
@@ -20,6 +20,23 @@ models:
     # Available: "gpt2", "gpt2-medium", "gpt2-large", "gpt2-xl"
     device: "auto"  # auto, cuda, or cpu
     use_cache: true
+
+# Model Variants - Specialized configurations for different domains
+variants:
+  standard:
+    clip_model: "ViT-B/32"
+    description: "General-purpose vision-language model for everyday images"
+    category_set: "default"
+    template_set: "basic"
+  
+  medical:
+    clip_model: "flaviagiammarino/pubmed-clip-vit-base-patch32"
+    # MedCLIP: Specialized CLIP model trained on medical images (PubMed, MIMIC-CXR)
+    # Better performance on radiology images, CT scans, X-rays, microscopy, etc.
+    description: "Medical imaging specialist using MedCLIP for clinical images"
+    category_set: "medical"
+    template_set: "medical"
+    gpt_model: "gpt2"  # Can be upgraded to gpt2-medium for better medical terminology
 
 # Text Generation Parameters
 generation:
@@ -95,6 +112,26 @@ categories:
     - "computer"
     - "art"
     - "painting"
+  
+  medical:
+    - "chest x-ray"
+    - "ct scan"
+    - "mri scan"
+    - "ultrasound"
+    - "microscopy image"
+    - "histopathology"
+    - "radiology image"
+    - "brain scan"
+    - "lung image"
+    - "cardiac image"
+    - "bone scan"
+    - "abdominal scan"
+    - "pathology slide"
+    - "dermatology image"
+    - "medical illustration"
+    - "anatomical image"
+    - "clinical photograph"
+    - "endoscopy image"
 
 # Image Context Templates
 templates:
@@ -116,6 +153,16 @@ templates:
     - "depicting"
     - "featuring"
     - "with"
+  
+  medical:
+    - "a medical image showing"
+    - "a radiological scan of"
+    - "a clinical image displaying"
+    - "diagnostic imaging reveals"
+    - "this medical scan shows"
+    - "pathological findings in"
+    - "anatomical view of"
+    - "medical examination showing"
 
 # Batch Processing
 batch:

@@ -19,12 +19,15 @@ from ..utils.config_loader import (
 from ..utils.device_utils import get_device
 
 
-class CLIPGPTDescriptor:
+class EJBVLMDescriptor:
     """
-    A vision-language model that uses CLIP to encode images and GPT-2 to generate descriptions.
+    EJB Vision-Language Model (EJB-VLM) Descriptor.
     
-    This is a zero-shot approach that doesn't require training the large models,
-    instead using prompting and prefix tuning techniques.
+    A zero-shot vision-language model that uses CLIP to encode images and GPT-2 
+    to generate descriptions. This is a zero-shot approach that doesn't require 
+    training the large models, instead using prompting techniques.
+    
+    Author: Eduardo J. Barrios (@edujbarrIos)
     """
     
     def __init__(self, config=None, clip_model_name=None, gpt_model_name=None, device=None):
@@ -220,14 +223,19 @@ class CLIPGPTDescriptor:
         return similarity
 
 
-class AdvancedCLIPGPTDescriptor(CLIPGPTDescriptor):
+class AdvancedEJBVLMDescriptor(EJBVLMDescriptor):
     """
-    Extended version with additional capabilities like category detection.
+    Advanced EJB-VLM Descriptor with enhanced features:
+    - Category detection using CLIP's zero-shot capabilities
+    - Multiple description generation
+    - Image comparison and similarity scoring
+    
+    Author: Eduardo J. Barrios (@edujbarrIos)
     """
     
     def __init__(self, category_set="default", *args, **kwargs):
         """
-        Initialize advanced descriptor.
+        Initialize advanced EJB-VLM descriptor.
         
         Args:
             category_set (str): Which category set to use (default or extended)

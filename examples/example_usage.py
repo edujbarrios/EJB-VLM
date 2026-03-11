@@ -7,7 +7,7 @@ import sys
 import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
-from src.models.ejb_vlm_model import CLIPGPTDescriptor, AdvancedCLIPGPTDescriptor
+from src.models.ejb_vlm_model import EJBVLMDescriptor, AdvancedEJBVLMDescriptor
 from src.utils.config_loader import get_config
 
 
@@ -18,7 +18,7 @@ def basic_example():
     print("=" * 60)
     
     # Initialize the model
-    model = CLIPGPTDescriptor()
+    model = EJBVLMDescriptor()
     
     # Example image path (replace with your own)
     config = get_config()
@@ -41,7 +41,7 @@ def multiple_descriptions_example():
     print("MULTIPLE DESCRIPTIONS EXAMPLE")
     print("=" * 60)
     
-    model = CLIPGPTDescriptor()
+    model = EJBVLMDescriptor()
     
     config = get_config()
     data_dir = config["paths"]["data_dir"]
@@ -70,7 +70,7 @@ def advanced_example():
     print("=" * 60)
     
     # Initialize advanced model with extended categories
-    model = AdvancedCLIPGPTDescriptor(category_set="extended")
+    model = AdvancedEJBVLMDescriptor(category_set="extended")
     
     config = get_config()
     data_dir = config["paths"]["data_dir"]
@@ -99,7 +99,7 @@ def preset_comparison_example():
     print("PRESET COMPARISON EXAMPLE")
     print("=" * 60)
     
-    model = CLIPGPTDescriptor()
+    model = EJBVLMDescriptor()
     
     config = get_config()
     data_dir = config["paths"]["data_dir"]
@@ -125,7 +125,7 @@ def batch_processing_example():
     print("BATCH PROCESSING EXAMPLE")
     print("=" * 60)
     
-    model = CLIPGPTDescriptor()
+    model = EJBVLMDescriptor()
     
     config = get_config()
     data_dir = config["paths"]["data_dir"]
@@ -159,7 +159,7 @@ def compare_images_example():
     print("IMAGE COMPARISON EXAMPLE")
     print("=" * 60)
     
-    model = CLIPGPTDescriptor()
+    model = EJBVLMDescriptor()
     
     config = get_config()
     data_dir = config["paths"]["data_dir"]
@@ -196,7 +196,7 @@ def interactive_mode():
     print("=" * 60)
     print("\nInitializing model...")
     
-    model = AdvancedCLIPGPTDescriptor()
+    model = AdvancedEJBVLMDescriptor()
     
     print("\nModel ready! Enter image paths to generate descriptions.")
     print("Type 'quit' or 'exit' to stop.\n")

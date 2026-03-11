@@ -3,6 +3,6 @@ Models for EJB VLM
 Author: Eduardo J. Barrios (@edujbarrIos)
 """
 
-from .ejb_vlm_model import CLIPGPTDescriptor, AdvancedCLIPGPTDescriptor
+from .ejb_vlm_model import EJBVLMDescriptor, AdvancedEJBVLMDescriptor
 
-__all__ = ["CLIPGPTDescriptor", "AdvancedCLIPGPTDescriptor"]
+__all__ = ["EJBVLMDescriptor", "AdvancedEJBVLMDescriptor"]
