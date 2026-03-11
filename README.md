@@ -1,6 +1,6 @@
 # CLIP-GPT2 Vision-Language Model
 
-A quick research project combining CLIP and pre-trained GPT-2 to generate image descriptions without training large models.
+A quick research project combining CLIP and pre-trained GPT-2 to generate image descriptions without training large models to determine if a VLM can be done without training.
 
 **Author**: Eduardo J. Barrios ([@edujbarruos](https://github.com/edujbarruos))
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ## Quick Start
 
 ```python
-from vlm_model import CLIPGPTDescriptor
+from ejb_vlm_model import CLIPGPTDescriptor
 
 # Initialize the model
 model = CLIPGPTDescriptor()
@@ -32,7 +32,7 @@ print(description)
 
 ## Project Structure
 
-- `vlm_model.py` - Main vision-language model implementation
+- `ejb_vlm_model.py` - Main vision-language model implementation (EJB = Eduardo J. Barrios)
 - `example_usage.py` - Example scripts and demonstrations
 - `utils.py` - Helper functions
 - `requirements.txt` - Project dependencies
